@@ -1,0 +1,760 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.row::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+/****************** header and top-header section start here  ******************/
+
+#top-header{
+    background-color: #171C26;
+}
+#top-header .phone{
+    color:white;
+    cursor: pointer;
+}
+#top-header .phone span{
+    font-size: 13px;
+}
+#top-header .mas-icon{
+    color:white;
+    cursor: pointer;
+}
+#top-header .mas-icon span{
+    font-size: 13px;
+}
+#top-header .phone .fa-phone{
+    font-size: 13px;
+} 
+#top-header .mas-icon .fa-envelope{
+    font-size: 13px;
+}
+#top-header .socal-icon{
+    color:white;
+    font-size: 13px;
+    margin-top: 3px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+#top-header .socal-icon .fa-facebook:hover{
+    color: #2ADC71;
+}
+#top-header .socal-icon .fa-twitter:hover{
+    color: #2ADC71;
+}
+#top-header .socal-icon .fa-linkedin:hover{
+    color: #2ADC71;
+}
+#top-header .socal-icon .fa-google-plus:hover{
+    color: #2ADC71;
+}
+#top-header .socal-icon .fa-rss:hover{
+    color: #2ADC71;
+}
+#top-header .login-area{
+    color:white;
+    font-size: 12px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+#top-header .login-area:hover{
+    color:#2ADC71;
+}
+#top-header .login-area a{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+/********************* header and top-header section ends here  *********************/
+
+/********************* Navigation Menu Start Here  *********************/
+.navbar {
+    background-color: white;
+    margin: 0px;
+    padding-top: 0px;
+    padding-bottom: 18px;
+
+}
+.navbar .navbar-nav .nav-item .nav-link{
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 20px 20px;
+    font-weight: bold;
+    display: block;
+    transition: all ease-in 0.2s;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    background-color: #2ADC71;
+    color:white;
+}
+.navbar .navbar-nav .nav-item .search{
+    border-radius:50%;
+    background-color: #EEEEEE;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    padding: 14px 18px;
+    color:black;
+    margin-top: 8px;
+
+}
+.navbar .navbar-nav .nav-item .active{
+    background-color: #2ADC71;
+    color:white;
+}
+.navbar .navbar-nav .nav-item .dropdown-menu{
+    border:none;
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+.navbar .navbar-nav .nav-item .dropdown-menu{
+    display: none;
+}
+.navbar .navbar-nav .nav-item:hover .dropdown-menu{
+    display: block;
+    
+}
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item{
+    padding: 10px 12px;
+    font-size: 15px;
+    color: #797070;
+    
+}
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover{
+    border-left: 5px solid #2ADC71;
+    color:#2ADC71;
+}
+/************************** Navigation Menu Ends Here  **************************/
+
+/************************** Caousel  Slider Section start Here  **************************/
+#slider{
+    padding-bottom: 100px;
+}
+#slider .carousel-inner .carousel-item .carousel-caption{
+    position: absolute;
+    left:135px;
+    top:147px;
+    letter-spacing: 3px;
+}
+#slider .carousel-inner .carousel-item .text-right{
+    position: absolute;
+    top:147px;
+    right:70px;
+}
+#slider .carousel-inner .carousel-item .text-left{
+    position: absolute;
+    left: 80px;
+}
+#slider .carousel-inner .carousel-item .carousel-caption h1{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+#slider .carousel-inner .carousel-item .carousel-caption h1 strong{
+    font-weight: 900;
+}
+#slider .carousel-inner .carousel-item .carousel-caption .btn-style{
+    padding: 14px 26px;
+    background-color: #2ADC71;
+    color:white;
+    font-weight: bold;
+    font-size: 14px;
+}
+#slider .carousel-inner .carousel-item .carousel-caption .btn-style-one{
+    padding: 14px 26px;
+    border: 2px solid #2ADC71;
+    background-color: transparent;
+    color:#2ADC71;
+    transition: all 0.3s ease-in ;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 14px;
+}
+#slider .carousel-inner .carousel-item .carousel-caption .btn-style-one:hover{
+    background-color: #2ADC71;
+    color:white;
+}
+.carousel-control-prev-icon{
+    background-color: rgba(0,0,0,.175);
+}
+.slider-mover-right {
+    width: 40px;
+    height: 40px;
+    line-height: 45px;
+    position: absolute;
+    top: 45%;
+    z-index: 5;
+    display: inline-block;
+    right: 20px;
+    background: #151515;
+    text-align: center;
+}
+.slider-mover-left {
+    width: 40px;
+    height: 40px;
+    line-height: 45px;
+    position: absolute;
+    top: 45%;
+    z-index: 5;
+    display: inline-block;
+    left: 20px;
+    background: #151515;
+    text-align: center;
+}
+
+
+/************************ Caousel  Slider Section ends Here  ************************/
+
+/************************ Our-courses Section Start Here  ************************/
+#our-courses {
+    padding-bottom: 70px;
+}
+#our-courses .courses-headding h2{
+    text-align: center;
+    font-weight: 700;
+}
+#our-courses .courses-headding span{
+    color:#2ADC71;
+}
+#our-courses .card{
+    margin-top: 50px;
+   
+}
+#our-courses .card:hover{
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.10), 0 6px 6px 0 rgba(0, 0, 0, 0.10);
+}
+#our-courses .card .card-body a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color:#2ADC71;
+}
+#our-courses .card .card-body a:hover{
+    color:#000;
+}
+#our-courses .card .card-body .review-stars{
+    font-size: 12px;
+    color:orange;
+}
+#our-courses .card .card-body .review-stars span{
+    color:#000;
+}
+
+#our-courses .card .card-body .courses-details p{
+    color: #5a5959;
+    line-height: 23px;
+    margin-bottom: 20px;
+    font-size: 13px;
+    margin-top: 10px;
+}
+#our-courses .card .card-body .text-footer ul{
+    margin: 0;
+    padding: 0;
+}
+#our-courses .card .card-body .text-footer ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 5px;
+    padding-right: 5px;
+    border-right: solid 1px #d8d6d6;
+    text-align: center;
+    font-weight: 600;
+    font-size: 12px;
+    color: #5a5959;
+}
+#our-courses .card .card-body .price{
+    background-color: #2ADC71;
+}
+#our-courses .card .card-body .price {
+    position: absolute;
+    right: 0;
+    top:50%;
+    padding: 10px 15px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 30px 0 0 30px;
+}
+/********************** Our-Courses Ends Here  **********************/
+
+/********************** Our-Services Section Start Here  **********************/
+#our-services{
+    padding-bottom: 50px;
+}
+#our-services .services-headding h2{
+    text-align: center;
+    font-weight: 700;
+}
+#our-services .services-headding span{
+    color:#2ADC71;
+}
+
+#our-services .services-box .media-left .fa-graduation-cap{
+    width: 55px;
+    height: 55px;
+    background-color: #2ADC71;
+    font-size: 23px;
+    text-align: center;
+    line-height: 55px;
+    color: #fff;
+    padding: 10px;
+}
+#our-services .services-box{
+    margin-top: 50px;
+}
+#our-services .services-box .media-body{
+    margin-left: 25px;
+}
+#our-services .services-box .media-body h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+#our-services .services-box .media-left .fa-book{
+    width: 55px;
+    height: 55px;
+    background-color: #2ADC71;
+    font-size: 23px;
+    text-align: center;
+    line-height: 55px;
+    color: #fff;
+    padding: 13px;
+}
+#our-services .services-box .media-left .fa-university{
+    width: 55px;
+    height: 55px;
+    background-color: #2ADC71;
+    font-size: 23px;
+    text-align: center;
+    line-height: 55px;
+    color: #fff;
+    padding: 13px;
+}
+#our-services .services-box .media-left .fa-user{
+    width: 55px;
+    height: 55px;
+    background-color: #2ADC71;
+    font-size: 23px;
+    text-align: center;
+    line-height: 55px;
+    color: #fff;
+    padding: 13px;
+}
+#our-services .services-box .media-left .fa-truck{
+    width: 55px;
+    height: 55px;
+    background-color: #2ADC71;
+    font-size: 23px;
+    text-align: center;
+    line-height: 55px;
+    color: #fff;
+    padding: 13px;
+}
+#our-services .services-box .media-left .fa-globe{
+    width: 55px;
+    height: 55px;
+    background-color: #2ADC71;
+    font-size: 23px;
+    text-align: center;
+    line-height: 55px;
+    color: #fff;
+    padding: 13px;
+}
+
+/************************* Our-Services Section Ends Here  *************************/
+
+/************************* Our-Gallery Section Start Here  *************************/
+
+#our-gallery .gallery-headding h2{
+    text-align: center;
+    font-weight: 700;
+}
+#our-gallery .gallery-headding h2 span{
+    color:#2ADC71;
+}
+#our-gallery .gallery-area ul{
+    list-style: none;
+    margin-top: 30px;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#our-gallery .gallery-area ul .active{
+    background-color:#2ADC71;
+    color:white;
+}
+#our-gallery .gallery-area ul li{
+    display: inline-block;
+    padding: 7px 25px;
+    background-color: #fff;
+    margin: 4px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    color:#5a5959;
+    cursor: pointer;
+    
+}
+#our-gallery .gallery-area ul li:hover{
+    background-color: #2ADC71;
+    color:white;
+}
+#our-gallery .photo{
+    color:#fff;
+    position: relative;
+    text-align:left;
+    cursor: pointer;
+    margin-bottom: 25px;
+    overflow: hidden;
+    
+}
+#our-gallery .photo img{
+    transition: 1.2s;
+}
+#our-gallery .photo .review-stars{
+    color:orange;
+}
+#our-gallery .photo .review-stars span{
+    color:#fff;
+}
+#our-gallery .photo .photo-1{
+    position: absolute;
+    left:0;
+    top: 0;
+    padding-left: 15px;
+    padding-top: 40px;
+    background-color:rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    display: none;
+    
+}
+#our-gallery .photo:hover img{
+    transform: scale(1.2);
+}
+#our-gallery .photo:hover .photo-1{
+    display: block;
+    
+}
+#our-gallery .photo .photo-1 .maney h4{
+    font-weight: 650;
+    margin-top: 10px;
+}
+
+/********************** Our-gallery section Ends here  **********************/
+
+/********************** Testimonial secion start here  **********************/
+#tastimonial{
+    background-image:linear-gradient(#15171CA6,#15171CA6), url("../images/banner-images/banner-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    height: 400px;
+    
+}
+#tastimonial .left-text{
+   position: absolute;
+   top:100px;
+   left: 0;
+   
+}
+#tastimonial .left-text h4{
+    color:rgb(209, 205, 205);
+  
+}
+#tastimonial .left-text h2{
+    font-weight: 600;
+    color:white;
+    font-size: 35px;
+    margin-top: 20px;
+    line-height: 1.2rem;
+}
+#tastimonial .left-text p{
+    color:#cfcaca;
+    font-size: 18px;
+  
+}
+#tastimonial .testimonial{
+    background-color:linear-gradient(#15171CA6,#15171CA6) ;
+}
+#tastimonial .carousel-slider-img{
+    color:#fff;
+    margin-top: 80px;
+   
+}
+  .carousel-slider-img img{
+    width:160px;
+    height:160px;
+    border-radius: 50%;
+    border: 15px solid #fff;
+}
+#tastimonial .carousel-slider-img .media-body{
+    margin-left: 20px;
+}
+#tastimonial .carousel-slider-img .media-body p{
+    font-size: 18px;
+    font-weight: normal;
+    color:#bdb4b4;
+}
+#tastimonial .carousel-slider-img .media-body h5{
+    text-transform: uppercase;
+    color:#2ADC71;
+    font-size: 15px;
+}
+#tastimonial .carousel-slider-img .media-body span{
+    font-size: 14px;
+}
+#tastimonial .carousel-slider-img .media-body .review-stars{
+    color:orange;
+    font-size: 12px;
+}
+.carousel-control-prev-icon{
+    background-color: rgba(0,0,0,.175);
+}
+.slider-mover-right-1 {
+    width: 40px;
+    height: 40px;
+    line-height: 45px;
+    position: absolute;
+    top: 70%;
+    z-index: 5;
+    display: inline-block;
+    right: 20px;
+    background: #151515;
+    text-align: center;
+}
+.slider-mover-left-1 {
+    width: 40px;
+    height: 40px;
+    line-height: 45px;
+    position: absolute;
+    top: 70%;
+    z-index: 5;
+    display: inline-block;
+    left: 20px;
+    background: #151515;
+    text-align: center;
+    z-index: 2;
+}
+
+/******************** Testimonial secion ends here  ********************/
+
+/********************** Our-Blog secion start here  **********************/
+#our-blog{
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+#our-blog .our-blog-area {
+    margin-top: 40px;
+}
+#our-blog .our-blog-area .card:hover{
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.10), 0 7px 7px 0 rgba(0, 0, 0, 0.10);
+}
+#our-blog .blog-headding h2{
+    text-align: center;
+    font-weight: 600;
+}
+#our-blog .blog-headding span{
+    color:#2ADC71;
+}
+#our-blog .our-blog-area .card-body h4{
+    color:#2ADC71;
+}
+#our-blog .our-blog-area .card-body h4:hover{
+    color:#000;
+}
+#our-blog .our-blog-area .card-body .text-title{
+    text-decoration: none;
+}
+#our-blog .our-blog-area .post-area span{
+    font-size: 13px;
+    margin-right: 8px;
+    color:#6C757D;
+}
+#our-blog .our-blog-area .post-area span a{
+    text-decoration: none;
+}
+#our-blog .our-blog-area .post-area span .fa-user,.fa-clock,.fa-comment{
+    color:#2ADC71;
+}
+#our-blog .our-blog-area .post-area p{
+    font-size: 15px;
+    margin-top: 15px;
+}
+#our-blog .our-blog-area .card-body .btn-style{
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    background-color: #2ADC71;
+    color:white;
+    font-weight: 600;
+}
+#our-courses .card .body-style,.date-box{
+    background-color: #2ADC71;
+}
+#our-courses .card .body-style,.date-box{
+    position: absolute;
+    right: 3%;
+    top:3%;
+    padding: 10px 15px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 2px;
+    text-align: center;
+}
+#our-courses .card .body-style,.date-box h5{
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+}
+/********************** Our-Blog secion ends here  **********************/
+
+/********************** Countres-Section Start Here  **********************/
+
+#counters-section{
+    background-image: linear-gradient(#484A52E8,#484A52E8), url("../images/banner-images/banner-4.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+#counters-section .counters {
+    color:#EFEFEF;
+    margin-top: 35px;
+}
+#counters-section .counters .fa-users,.fa-calendar,.fa-male,.fa-trophy{
+    font-size: 40px;
+    color:white;
+}
+#counters-section .counters h1{
+    margin-top: 10px;
+    font-weight: bold;
+}
+/* Logo Slider area section start here  */
+#logo-slider{
+    background-color: #fff;
+}
+/* Logo Slider area section ends here  */
+
+/* Footer area start here  */
+.footer-area{
+    background-color: #000 ;
+    padding-bottom: 20px;
+}
+.footer-top .footer-img-area{
+    padding-top: 25px;
+    margin-bottom: 20px;
+}
+.footer-top form input {
+    width: 80%;
+    height: 40px;
+    padding: 10px 15px;
+    border: 1px solid transparent;
+    border-radius: 3px 0 0 3px;
+    font-size: 14px;
+    float: left;
+    outline: none;
+}
+.footer-top form .button-small {
+    width: 20%;
+    border-radius: 0 3px 3px 0;
+    color: #fff;
+    float: left;
+    height: 39px;
+    text-align: center;
+
+}
+.footer-top form .button-small {
+    border: 1px solid  #2adc71;
+    background: #2adc71 ;
+   
+}
+.footer-top .footer-icon .phone span{
+    font-size: 13px;
+}
+.footer-top .footer-icon .mas-icon{
+    color:white;
+    cursor: pointer;
+}
+.footer-top .footer-icon ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+.footer-top .footer-icon ul li{
+    float: left;
+    margin-top: 8px;
+    
+}
+.footer-top .footer-icon ul li a{
+    text-decoration: none;
+    color:white;
+    padding: 10px;
+    border: 1px solid white;
+   margin-right: 10px;
+   border-radius: 3px;
+   box-shadow: 0.5px 0.5px 1px rgb(228, 225, 225);
+}
+.footer-top .footer-icon ul li a:hover{
+    background-color: #2ADC71;
+    border: 1px solid #2ADC71;
+}
+.footer-top .footer-bottom-text{
+    color:rgb(221, 214, 214);
+}
+.footer-top .footer-bottom-text ul li{
+    margin-top: 15px;
+}
+.footer-top .footer-menu .main-title h5{
+    color:rgb(221, 214, 214);
+}
+.footer-top .footer-menu ul li a{
+    color:rgb(221, 214, 214);
+    
+}
+.footer-top .footer-menu ul li a:hover{
+    color:#2ADC71;
+}
+.footer-top .footer-menu-1 .main-title h4{
+    color:rgb(221, 214, 214);
+}
+.footer-top .footer-menu-1 ul li a{
+    color:#bdb4b4;
+    text-decoration: none;
+    padding:3px;
+    display: block;
+    border: 1px solid #bdb4b4;
+    width: 50%;
+    margin-top: 5px;
+   
+    
+}
+.footer-top .footer-menu-1 ul li a:hover{
+    border: 1px solid #2ADC71;
+    background-color: #2ADC71;
+    color:white;
+}
+
+
+/* Footer area ends here  */
+
+/* Responsive design start  */
+@media screen and (max-width:992px){
+    #top-header{
+        display: none;
+    }
+}
